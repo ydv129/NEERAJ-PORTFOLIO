@@ -553,21 +553,3 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
-
-.m-3 {
-  margin: 0.75rem;
-}
-
-.bg-\[111\] {
-  background-color: 111;
-}
-
-.bg-\[\#111\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 17 17 / var(--tw-bg-opacity, 1));
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
